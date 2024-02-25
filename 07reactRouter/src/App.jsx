@@ -11,9 +11,7 @@ function App() {
 
   return (
     <>
-     <Header></Header>
-     <Home></Home>
-     <Footer></Footer>
+     
     </>
   )
 }
