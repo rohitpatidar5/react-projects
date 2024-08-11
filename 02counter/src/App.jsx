@@ -11,6 +11,8 @@ function App() {
     //counter = counter + 1; //when we use this line we have to use counter as let
     setCounter(counter+1)
 
+    // document.querySelector('SPAN').innerHTML = counter;  previously we have to use DOM
+
 
   }
   const removeValue = () => {
@@ -21,12 +23,13 @@ function App() {
   return (
     <>
       <h1>Chai aur React</h1>
-      <h2>counter Value: {counter}</h2>
+      <h2>counter Value: <span>{counter}</span></h2>
 
       <button onClick={addValue}>Add value</button>
       <br />
       <button onClick={removeValue}>Decrease value</button>
     </>
+    
 
   )
 }

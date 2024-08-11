@@ -5,7 +5,7 @@ import UserContext from "../context/UserContext"
 function Login() {
 
     const [username, setUsername] = useState('')
-    const [password, setpassword] = useState('')
+    const [password, setPassword] = useState('')
 
     const {setUser} = useContext(UserContext)
     
